@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Button, message } from "antd";
 import { DeleteOutlined } from "@ant-design/icons";
 import axios from "axios";
-import { BASE_URL, TOKEN_KEY } from "../constants";
+import { BASE_URL, TOKEN_KEY } from "../constant";
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
